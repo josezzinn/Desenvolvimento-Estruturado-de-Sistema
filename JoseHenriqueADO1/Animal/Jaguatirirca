@@ -1,0 +1,16 @@
+package com.mycompany.JoseHenriqueADO1;
+
+public class JoseHenriqueADO1 {
+
+    /**
+     * @param args
+     */
+    public static void main(String[] args) {
+        Animal jaguatirica = new Animal ("Jaguatirica", "arvores", "vertebrados");
+
+         System.out.println("O animal que eu escolhi com a inicial J é a" +jaguatirica.getNome());
+
+         jaguatirica.habilidade();
+         jaguatirica.alimento();
+    }
+}
